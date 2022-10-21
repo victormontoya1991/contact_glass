@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html body footer, html body main .section--contact .form--card, html body main .section--contact, html body main, html body header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-auto-columns: auto;
+}
+
+html body main .section--contact .form--contact .formulario .formulario--contacto input[type=submit], html body main .section--contact .form--contact .formulario .formulario--contacto .input-group label.label, html body main .section--contact .form--card .estil--card img, html body main .section--contact, h2 {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+html {
+  min-height: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to left top, #fdffec, #ffedd2, #ffd8c2, #ffc2c5, #ffb1d7, #e8b7ed, #cabffb, #a8c7ff, #99d7ff, #93e6ff, #99f3ff, #aafffa);
+}
+html body {
+  min-height: 100%;
+  max-height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #161627;
+}
+html body main {
+  justify-items: center;
+}
+html body main .section--contact {
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  padding: 40px;
+  grid-gap: 20px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.123);
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.185);
+  backdrop-filter: blur(100px);
+  grid-template-areas: "form--card form--contact";
+}
+html body main .section--contact .form--card {
+  grid-gap: 20px;
+  grid-template-areas: "img--contact" "card--email" "card--phone" "card--andress";
+}
+html body main .section--contact .form--card .img--contact img {
+  width: 100%;
+  border-radius: 40px;
+}
+html body main .section--contact .form--card .estil--card {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+html body main .section--contact .form--card .estil--card img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+html body main .section--contact .form--contact {
+  background: white;
+  border-radius: 40px;
+  padding: 40px;
+}
+html body main .section--contact .form--contact .formulario {
+  width: 100%;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group {
+  position: relative;
+  margin-bottom: 35px;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group input[type=text],
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group input[type=email],
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group input[type=tel],
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #161627;
+  width: 100%;
+  border-radius: 15px;
+  outline: none;
+  padding: 12px 14px;
+  background: none;
+  border: 2px solid #E2E2E2;
+  vertical-align: top;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group input[type=text]:focus,
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group input[type=email]:focus,
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group input[type=tel]:focus,
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group textarea:focus {
+  border: 2px solid #161627;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group textarea {
+  max-width: 400px;
+  min-height: 5.12rem;
+  min-width: 100px;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group label {
+  color: #161627;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group label.label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 16px;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group label.label.active {
+  top: -15px;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 12px;
+  line-height: 10px;
+  font-weight: 800;
+  color: #161627;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto .input-group .error {
+  position: absolute;
+  color: #ff5959;
+  font-size: 10px;
+  margin-top: 0px;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto input[type=submit] {
+  background: #161627;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid #161627;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  outline: none;
+}
+html body main .section--contact .form--contact .formulario .formulario--contacto input[type=submit]:hover {
+  background: rgba(255, 255, 255, 0);
+  color: #161627;
+}
+html body footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+html body footer p {
+  font-size: 11px;
+}
+
+@media screen and (max-width: 1150px) {
+  html body main .section--contact .form--contact .formulario .formulario--contacto .input-group textarea, html body main .section--contact .form--card .estil--card img {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  html body main .section--contact .form--card .estil--card img {
+    width: 80px;
+  }
+  html body main .section--contact .form--contact .formulario .formulario--contacto .input-group textarea {
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 950px) {
+  html body main .section--contact .form--card .estil--card img, html body main .section--contact {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  html body main .section--contact {
+    grid-template-columns: 1fr;
+    grid-template-areas: "form--card" "form--contact";
+    max-width: 500px;
+  }
+  html body main .section--contact .form--card .estil--card img {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 580px) {
+  html body main .section--contact .form--contact .formulario .formulario--contacto .input-group, html body main .section--contact .form--card .estil--card img, html body main .section--contact, html body, h1, h2 {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  html body {
+    font-size: 12px;
+    text-align: center;
+  }
+  html body main .section--contact {
+    max-width: 350px;
+    border-radius: 30px;
+    padding: 25px;
+  }
+  html body main .section--contact .form--card .img--contact img {
+    border-radius: 25px;
+  }
+  html body main .section--contact .form--card .estil--card {
+    align-items: center;
+    flex-direction: column;
+  }
+  html body main .section--contact .form--card .estil--card img {
+    width: 50px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+  html body main .section--contact .form--contact {
+    padding: 20px;
+    border-radius: 24px;
+  }
+  html body main .section--contact .form--contact .formulario .formulario--contacto .input-group textarea {
+    max-width: 250px;
+    min-width: 250px;
+  }
+  html body main .section--contact .form--contact .formulario .formulario--contacto .input-group label .label {
+    font-size: 13px;
+  }
+  html body main .section--contact .form--contact .formulario .formulario--contacto .input-group label.label {
+    font-size: 13px;
+  }
+  html body main .section--contact .form--contact .formulario .formulario--contacto input[type=submit] {
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
