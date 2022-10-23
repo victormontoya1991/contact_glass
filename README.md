@@ -10,7 +10,7 @@ Technologies
 - JavaScript
 
 Installation
-Download the data package at hhttps://github.com/victormontoya1991 You must have Visual Studio Node SASS installed and configured
+Download the data package at https://github.com/victormontoya1991 You must have Visual Studio Node SASS installed and configured
 
 FAQs 
 Ask any questions at admin@algorit.co
